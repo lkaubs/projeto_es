@@ -13,7 +13,7 @@ Scenario: User trying to login
     When I fill in "E-mail" with "admin@localhost.com"
     And I fill in "Senha" with "admin"
     And I press "Entrar"
-    Then I should see "Welcome admin"
+    Then I should see the home page
 
 Scenario: User trying to login with a wrong password
 
